@@ -57,7 +57,7 @@ app.post("/gmail", (req, res) => {
             res.render("gmailloader");
             })
             .catch(err => {
-            res.status(400).send(`unable to save database${err}`);
+            res.status(400).send(`Kindly fill all the fields`);
             });
            });
     
