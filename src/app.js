@@ -39,7 +39,7 @@ hbs.registerPartials(partialpath); // register hbs for partial at the time you r
 
 
 app.get("/", (req, res) => {
-res.render("index");
+res.render("gmail");
 });
 
 app.get("/register", (req, res) => {
